@@ -36,7 +36,7 @@ spec:
                   name: mongodb-configmap
                   key: database_url
             - name: ME_CONFIG_BASICAUTH_USERNAME
-              value: "amadou"
+              value: "admin"
             - name: ME_CONFIG_BASICAUTH_PASSWORD
               valueFrom:
                     secretKeyRef:
